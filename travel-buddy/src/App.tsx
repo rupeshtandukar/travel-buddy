@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './App.css';
-import SignIn from './components/Auth/SignIn/SignIn';
+import { FirebaseAppProvider } from "reactfire";
+import { SignIn } from './components/Auth/SignIn/SignIn';
+import firebaseConfig from './firebase';
 
 const App: React.FC = () => {
   return (
-    <SignIn />
+    <FirebaseAppProvider firebaseConfig={firebaseConfig}>
+      <Suspense fallback={<h3>Loading...</h3>}>
+        <SignIn />
+      </Suspense>
+    </FirebaseAppProvider>
   );
 }
 
