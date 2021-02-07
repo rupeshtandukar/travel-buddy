@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Firebase Config
+
+REACT_APP_FIREBASE_API_KEY=AIzaSyAgBUc8vRZH30OQK2DZTU9oI2WQWM7j2m4
+REACT_APP_FIREBASE_AUTH_DOMAIN=travel-buddy-62aa9.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=travel-buddy-62aa9
+REACT_APP_FIREBASE_STORAGE_BUCKET=travel-buddy-62aa9.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=75357732709
+REACT_APP_APP_ID=1:75357732709:web:75d7fcfeb859c0ff676b8c
+REACT_APP_DATABASE_URL=https://travel-buddy-62aa9-default-rtdb.firebaseio.com
+
 ## Available Scripts
 
 In the project directory, you can run:
